@@ -32,3 +32,13 @@ img {
 .center {
   align-items: center;
 }
+.bold {
+    font-weight: bolder;
+    text-align: center;
+  
+}
+
+form {
+    margin: 8em;
+    width: 100%;
+    }
