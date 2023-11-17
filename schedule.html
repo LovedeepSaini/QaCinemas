@@ -7,29 +7,30 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
       integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      referrerpolicy="no-referrer"/>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Moon+Dance&family=Twinkle+Star&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <title>Schedule</title>
 </head>
 <body>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark-subtle" >
+ 
+      <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark-subtle fan" >
             <div class="container-fluid ">
               <a class="navbar-brand text-secondary-emphasis" href="#">QA Cinemas</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,14 +55,14 @@
           </nav>
 
           <!-- Cineman image and text about sth -->
-      <section class="cinema">
+      <section class="cinema dance">
         <div class="container">
           <div class="row">
               <div class="row">
                 <div class="col-md-12">
                   <h1 class="display-6 text-center text-secondary">Welcome to QA Cinemas</h1>
                   <img src="./images/cinema2.png" class="img-fluid" alt=""/>
-                  <p class="lead text-bg-info text-light text-wrap text-lg-center">OUR SCHEDULE</p>
+                  <p class="lead text-bg-info text-light text-wrap text-lg-center text-center">OUR SCHEDULE</p>
                 </div>
             </div>
         </div>        
@@ -72,7 +73,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <table class="table table-dark table-striped text-center">
+                        <table class="table table-dark table-striped text-center fan">
+                          <thead>
+                            <tr>
+                              <td>Days</td>
+                              <td>Time</td>
+                            </tr>
+                          </thead>
                             <tbody>
                                 <tr>
                                     <td>Monday - Thursday</td>
@@ -93,17 +100,38 @@
             </div>
         </section>
 
-        <!-- What's on -->         <section class="section">
+        <!-- What's on -->
+          <section class="section">
             <div class="container">
               <div class="row">
-                <div class="col-md-12">
-                 <p class="lead text-bg-info text-light text-wrap text-lg-center">WHAT'S ON</p>
+                <div class="col-md-12 dance">
+                 <p class="lead text-bg-info text-light text-wrap text-lg text-center">WHAT'S ON</p>
+                 <table class="table fan">
+                  <tbody>
+                      <tr>
+                          <td class="large-font">Napoleon</td>
+                          <td class="text-center medium-font">16:30 - 18:20</td>
+                          <td ><img src="./images/napoleon.gif" width="100px" alt="Napoleon movie"/></td>
+                          </tr>
+                      <tr>
+                          <td class="large-font">Barbie</td>
+                          <td class="text-center medium-font">18:30 - 20:20</td>
+                          <td ><img src="./images/barbie.gif" width="230" alt="Barbie movie"/></td>
+                      </tr>
+                      <tr>
+                          <td class="large-font">The Creator</td>
+                          <td class="text-center medium-font">20:30 - 22:20</td>
+                          <td ><img src="./images/creator.gif" width="190" alt="The Creator movie"/></td>
+                      </tr>
+                  </tbody>
+              </table>  
                 </div>
             </div>
-           </section>
+          </section>
+
+          <!-- -->
 
 
-
-
+        
 </body>
 </html>

@@ -1,4 +1,27 @@
-.card-body{
-    text-align: center;
+.card-body {
+  text-align: center;
+}
 
+.large-font {
+  font-size: 40px;
+}
+
+.medium-font {
+  font-size: 30px;
+}
+
+img {
+  display: block;
+}
+
+.dance {
+  font-family: "Moon Dance", cursive;
+}
+
+.star {
+  font-family: "Twinkle Star", cursive;
+}
+
+.fan {
+  font-family: "Fanwood Text", serif;
 }
