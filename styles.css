@@ -29,3 +29,13 @@ img {
     background-color: rgb(218, 218, 236);
     
 }
+.bold {
+    font-weight: bolder;
+    text-align: center;
+  
+}
+
+form {
+    margin: 8em;
+    width: 100%;
+    }
